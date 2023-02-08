@@ -128,6 +128,10 @@
 	margin: 20px 0;
 }
 
+#content .lib{
+	flex-direction: column;
+}
+
 #content .subtitle>img{
 	width: 40px;
 	height: 40px;
@@ -167,6 +171,20 @@
 #content>.rightcol>.block>.h-skill>.qt>.progress>.percent{
 	width: 45%;
 	height: 10px;
+}
+
+#content>.rightcol>.block>.h-skill span{
+	background: #2d6fb1;
+	border-radius: 20px;
+	padding: 2px 7px;
+	margin: 5px;
+	width: fit-content;
+	color: #a2a2a2;
+}
+
+#content>.rightcol>.block>.h-skill .lib>div{
+display: flex;
+flex-wrap: wrap;
 }
 
 #content>.rightcol>.block>.s-skill{
