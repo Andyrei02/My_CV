@@ -1,0 +1,197 @@
+#header{
+	display: flex;
+	flex-direction: row;
+	height: 350px;
+}
+
+.orange{
+	color: #E67E22;
+}
+
+.white{
+	color: #fff;
+}
+
+.block{
+	margin-left: 20px;
+}
+
+.link{
+	width: 10px;
+	height: 10px;
+}
+
+#header>.summary{
+	display: flex;
+	justify-content: space-around;
+	background: #a2a2a2;
+	width: 70%;
+	border-radius: 10px 0 10px 10px;
+}
+
+#header>.summary>.img{
+	width: 150px;
+	height: 150px;
+	padding: 40px 20px;
+}
+
+#header>.summary>.img> img{
+	width: 150px;
+	height: 150px;
+	border-radius: 200px 200px 20px 200px;
+	border: 5px solid #E67E22;
+	box-shadow: 0 0 0 4px #ffbd6a;
+}
+
+#header>.summary>.content{
+	margin: 30px 50px 50px 20px;
+}
+
+#header>.contacts{
+	width: 30%;
+	height: auto;
+	background: #3f3f3f;
+	margin-left: 10px;
+	border-radius: 0 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#header>.contacts .contact{
+	padding: 20px;
+}
+
+#header>.contacts a{
+	text-decoration: none;
+	display: flex;
+	align-item: center;
+}
+
+#header>.contacts p{
+	color: white;
+	padding-left: 20px;
+}
+
+#header>.contacts img{
+	height: 40px;
+	width: 40px;
+	align-self: center;
+}
+
+.dot {
+	height: 25px;
+	width: 25px;
+	background-color: orange;
+	border-radius: 50%;
+	border: 5px solid white;
+	display: inline-block;
+	position: absolute;
+	top: 345px;
+	right: 29%;
+}
+
+#content{
+	display: flex;
+	margin-top: 10px;
+	height: auto;
+}
+
+#content>.main{
+	width: 70%;
+}
+
+#content>.main>.block>.portfolio a{
+	display: flex;
+	align-items: baseline;
+	text-decoration: none;
+}
+
+#content>.main>.block>.portfolio p{
+	color: black;
+	width: fit-content;
+}
+
+#content>.main>.block>.portfolio img{
+	margin-left: 5px;
+}
+
+#content>.rightcol{
+	width: 30%;
+	height: 100%;
+	background: #a2a2a2;
+	border-radius: 10px 0;
+}
+
+#content .subtitle{
+	display: flex;
+	margin: 20px 0;
+}
+
+#content .subtitle>img{
+	width: 40px;
+	height: 40px;
+	align-self: center;
+}
+
+#content .subtitle>h3{
+	padding-left: 20px;
+}
+
+#content>.rightcol>.block>.h-skill .progress{
+	width: 70%;
+	height: 10px;
+	border: 2px solid #34495E;
+	margin-bottom: 15px;
+}
+
+.percent{
+	background: #34495E;
+}
+
+#content>.rightcol>.block>.h-skill>.python>.progress>.percent{
+	width: 80%;
+	height: 10px;
+}
+
+#content>.rightcol>.block>.h-skill>.linux>.progress>.percent{
+	width: 70%;
+	height: 10px;
+}
+
+#content>.rightcol>.block>.h-skill>.htmlcss>.progress>.percent{
+	width: 60%;
+	height: 10px;
+}
+
+#content>.rightcol>.block>.h-skill>.qt>.progress>.percent{
+	width: 45%;
+	height: 10px;
+}
+
+#content>.rightcol>.block>.s-skill{
+	display: flex;
+	flex-direction: column;
+}
+
+#content>.rightcol>.block>.s-skill span{
+	background: #2d6fb1;
+	border-radius: 20px;
+	padding: 2px 7px;
+	margin-bottom: 5px;
+	width: fit-content;
+	color: #a2a2a2;
+}
+
+#content>.rightcol>.block>.interests div.subtitle + div.subtitle{
+	display: flex;
+	flex-direction: row;
+	align-item: center;
+	margin: 10px 0;
+}
+
+#content>.rightcol>.block>.interests div.subtitle + div.subtitle img{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
